@@ -4,10 +4,10 @@ import { Header } from './Navigation/Header';
 
 const Layout = ({ children }: { children: JSX.Element[] | JSX.Element }) => {
   return (
-    <Container p='0' maxW={'full'}>
+    <Container p="0" maxW={'full'}>
       <MainBackground />
-      <Container p='0' position={'absolute'} maxW={'full'} zIndex='999'>
-        <Header />
+      <Container p="0" position={'absolute'} maxW={'full'} zIndex="999">
+        {/* <Header /> */}
         {children}
       </Container>
     </Container>

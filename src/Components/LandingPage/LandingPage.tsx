@@ -6,11 +6,8 @@ import {
   Text,
   VStack,
 } from '@chakra-ui/react';
-import Image from 'next/image';
-import { useRouter } from 'next/router';
 
 const LandingPage = () => {
-  const router = useRouter();
   return (
     <Container
       h="100vh"
@@ -23,9 +20,9 @@ const LandingPage = () => {
       alignItems={'center'}
       gap={3}
     >
-      <Heading>Cooking Something 👨‍🍳 </Heading>
+      <Heading>Under Maintenance</Heading>
       <Text color={'white'} fontSize={'lg'} textAlign={'center'}>
-        We are working on something really cool, stay tuned! 🚀
+        We are working on some upgrades. OPOS Hackathon voting will be back soon
       </Text>
     </Container>
   );

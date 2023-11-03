@@ -21,9 +21,6 @@ const LandingPage = () => {
       gap={3}
     >
       <Heading>Under Maintenance</Heading>
-      <Text color={'white'} fontSize={'lg'} textAlign={'center'}>
-        We are working on some upgrades. OPOS Hackathon voting will be back soon
-      </Text>
     </Container>
   );
 };
